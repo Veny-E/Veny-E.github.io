@@ -1,0 +1,271 @@
+/*général*/
+
+html,body{
+    height: 100%;
+    font-family: Arial;
+
+
+}
+
+.home_buton{
+    margin-left: auto;
+    margin-right: 10px;
+
+}
+.home_buton:hover{
+    opacity: 0.5;
+}
+
+.top-home{ 
+    display: flex;
+    background-color: #001f3f;
+    color: white;
+    align-items: center;
+    padding: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial;
+
+}
+
+.button-style{
+    background-color: #001f3f;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    margin: 4px 2px;
+    font-weight: bold;
+}
+
+.main{
+    display: flex;
+    flex: 1;
+    width: 70%;
+    margin: 20px auto;
+}
+
+.content{  
+    width: 80%;
+    padding: 20px;
+    justify-content: center;
+}
+
+.sectionsleft{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.sectionleft{
+    background-color: lightgray;
+    width: 230px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.lien_texte{
+    text-decoration: none;
+    color: blue
+}
+.lien_texte:hover{
+    text-decoration: underline;    
+}
+
+.img_lien:hover{
+    transform: scale(1.1); /* modifie les propriétés de l'élément ici l'échelle*/
+    
+}
+
+.img_lien{
+    transition: 0.5s; /* les transformation sur l'éléments son progressives*/
+}
+
+
+
+/*index*/
+.top-index{
+    background-color: #001f3f;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+
+
+
+
+/*expériences*/
+.containerstages{
+    width: 70%; 
+    margin: auto;
+    align-items: center;
+    text-align: center;
+  
+}
+.button-stages{
+    margin: 10px 40px;
+    border: black;
+    background-color: #001f3f;
+    color:white;
+    border: 5px solid black;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: 'Times New Roman';
+}
+
+.text-image-stage{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+
+.exp-page{
+    display: flex;
+}
+
+.menu{
+    display: block;
+}
+
+.bouton_menu{
+    margin: 10px 20px;
+    border: black;
+    background-color: #001f3f;
+    color:white;
+    border: 5px solid black;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-family: 'Times New Roman';
+
+}
+.bouton_menu:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#texte_à_cacher{
+    color: black;
+    margin: 10px;
+    text-align: left;
+}
+.menu_content{
+    color: black;
+    text-decoration: none;
+}
+.menu_content:hover{
+    cursor: pointer;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+/* parcours*/
+
+body.parcours-page {
+    background-color: #001f3f;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial;
+}
+.top-parcours{
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    align-items: center;
+}
+
+.photo-section{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+}
+.photo-container{
+    width: 300px;
+    height: 220px;
+}
+.photo-container img{
+    width: 100%;
+    height: 100%;
+}
+.photo-container .titre{
+    background: black;
+    color: white;
+    width: 93%;
+    text-align: center;
+    padding:  10px ;
+    opacity: 0;
+    font-size: 16px;
+}
+
+.photo-container:hover .titre{
+    opacity: 1;
+}
+
+.description-section{
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    font-size: 10px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: navy;
+
+}
+
+.footer{
+    margin-top: 8%;
+    padding: 4px;
+    text-align: center;
+    font-size: 15px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+
+}
+
+.liens_utiles{
+    color: black;
+    text-decoration: none;
+}
+
+.liens_utiles:hover{
+    font-size: larger;
+    text-decoration: underline;
+}
+
+
+/* centres intérêts*/
+
+#Img_BBKK{
+    margin: auto;
+    display: block;
+}
+
+.légende{
+    color: grey;
+    text-align: center;
+}
+
+
+.vidéo{
+    display: block;
+    margin: auto;
+}
+
+
